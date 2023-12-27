@@ -23,19 +23,23 @@
   "exports": {
     ".": {
       "import": "./dist/module/index.js",
-      "require": "./dist/commonjs/index.js"
+      "require": "./dist/commonjs/index.js",
+      "types": "./index.d.ts"
     },
     "./no-pro": {
       "import": "./dist/module/no-pro/index.js",
-      "require": "./dist/commonjs/no-pro/index.js"
+      "require": "./dist/commonjs/no-pro/index.js",
+      "types": "./no-pro/index.d.ts"
     },
     "./unstyle": {
       "import": "./dist/module/unstyle/index.js",
-      "require": "./dist/commonjs/unstyle/index.js"
+      "require": "./dist/commonjs/unstyle/index.js",
+      "types": "./unstyle/index.d.ts"
     },
     "./no-pro-unstyle": {
       "import": "./dist/module/no-pro-unstyle/index.js",
-      "require": "./dist/commonjs/no-pro-unstyle/index.js"
+      "require": "./dist/commonjs/no-pro-unstyle/index.js",
+      "types": "./no-pro-unstyle/index.d.ts"
     }
   },
   "types": "index.d.ts",
